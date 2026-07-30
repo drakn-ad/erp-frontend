@@ -79,7 +79,7 @@ export default function Login({ onLoggedIn }) {
 
         <p className="mt-4 text-center text-xs text-slate-400">
           Connects to the API at{" "}
-          <code className="rounded bg-slate-100 px-1 py-0.5 font-mono">localhost:8080</code> using
+          <code className="rounded bg-slate-100 px-1 py-0.5 font-mono">https://spring-boot-erp-production-3ed5.up.railway.app</code> using
           HTTP Basic Authentication.
         </p>
       </div>

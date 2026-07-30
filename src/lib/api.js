@@ -103,6 +103,6 @@ export function getErrorMessage(error) {
     if (typeof error.response.data === "string") return error.response.data;
     return `Request failed (${error.response.status}).`;
   }
-  if (error?.request) return "No response from server. Is the API running on localhost:8080?";
+  if (error?.request) return "No response from server. Is the API running on https://spring-boot-erp-production-3ed5.up.railway.app?";
   return error?.message || "Something went wrong.";
 }

@@ -1,7 +1,7 @@
 # Ledger — ERP Dashboard
 
 A React + Tailwind CSS dashboard for financial reporting and inventory management, built to
-talk to a backend at `http://localhost:8080` using HTTP Basic Authentication.
+talk to a backend at `http://https://spring-boot-erp-production-3ed5.up.railway.app` using HTTP Basic Authentication.
 
 ## Stack
 
@@ -21,7 +21,7 @@ npm run dev
 ```
 
 The app runs on `http://localhost:5173` and expects the ERP API to be reachable at
-`http://localhost:8080` (see `BASE_URL` in `src/lib/api.js` if it lives elsewhere).
+`http://https://spring-boot-erp-production-3ed5.up.railway.app` (see `BASE_URL` in `src/lib/api.js` if it lives elsewhere).
 
 ## How authentication works
 
