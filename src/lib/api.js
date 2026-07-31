@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://spring-boot-erp-production-3ed5.up.railway.app";
+const BASE_URL = "spring-boot-erp-production-3c93.up.railway.app";
                 
 
 // Axios instance shared across the app. Basic Auth credentials are attached
